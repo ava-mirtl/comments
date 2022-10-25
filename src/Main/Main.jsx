@@ -35,6 +35,7 @@ function handleClick() {
 document.getElementById('text').value="";
 data.unshift({"txt": text, "id": data.length+1});
 setFlag(!flag) ;
+document.getElementById('n0').classList.add('n0');
 postComments.postComs(text);
 }
 if (!data) {
@@ -47,8 +48,8 @@ if (!data) {
     <input type="text" id="text" onChange={handleChange}/>
     <button id="send" onClick={handleClick}>Отправить</button>
     <div id="comments">
-   {data.map((item)=>(
-<Comment key = {item.index} txt = {item.txt} />
+   {data.map((item, index)=>(
+<Comment key = {index} txt = {item.txt} id = {`n${index}`}/>
       ))}
     </div>
     </div>
