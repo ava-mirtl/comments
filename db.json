@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "txt": "adorable"
+    },
+    {
+      "id": 2,
+      "txt": "so cute"
+    },
+    {
+      "id": 3,
+      "txt": "i like it"
+    },
+    {
+      "msnfm": "",
+      "id": 4
+    },
+    {
+      "mnrkg": "",
+      "id": 5
+    },
+    {
+      "emngk42": "",
+      "id": 6
+    }
+  ]
+}
